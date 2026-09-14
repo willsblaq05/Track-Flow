@@ -25,4 +25,3 @@ def create_user(session: Session, email: str, password: str) -> User:
     session.refresh(user)
     return user
 
-def create
