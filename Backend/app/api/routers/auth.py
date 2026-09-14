@@ -9,7 +9,6 @@ from app.services.auth import authenticate_user
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
-
 @router.post("/login", response_model=Token)
 def login(
     form_data: OAuth2PasswordRequestForm = Depends(),
