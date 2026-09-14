@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+
+sqlmodel
+psycopg2-binary
+alembic
+
+pydantic-settings
+
+PyJWT
+pwdlib[argon2]
+
+python-multipart
+
+# Testing
+pytest
+httpx2
